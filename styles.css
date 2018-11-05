@@ -1,6 +1,6 @@
 #container {
 	width: 293px;
-	height: 352px;
+	height: 420px;
 	margin: auto;
 	background-color: white;
 	border-radius: 10px;
@@ -30,7 +30,7 @@ h2 {
 }
 
 .equals {
-	width: 135px;
+  width: 282px;
 	height: 60px;
 	font-size: 30px;
 	font-family: Courier;
