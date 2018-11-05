@@ -66,6 +66,8 @@ function calculation(number1, number2, operation) {
     return subtract(number1, number2);
   } else if (operation === "*") {
   return multiply(number1, number2);
+  } else if (opperation === "√") {
+    return squareroot(number1)
   } else {
     return divide(number1, number2);
   }
@@ -89,4 +91,9 @@ function multiply(number1, number2) {
 // function to divide
 function divide(number1, number2) {
   return number1 / number2;
+}
+
+//funtion to squareroot
+function squareroot(number1) {
+  return Math.sqrt(number1)
 }
